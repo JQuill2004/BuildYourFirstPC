@@ -116,3 +116,36 @@ footer {
 footer a {
     color: var(--accent);
 }
+
+.parts-table {
+    background-color: var(--secondary);
+    padding: 25px;
+    margin: 30px 0;
+    border-radius: 8px;
+}
+
+.parts-table h2 {
+    color: var(--accent);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background-color: var(--primary);
+    color: var(--text);
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    padding: 12px;
+    border: 1px solid #555;
+}
+
+tr:nth-child(even) {
+    background-color: #1b1e24;
+}
