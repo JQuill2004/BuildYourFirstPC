@@ -1,3 +1,4 @@
+
 :root {
     --text: #f5f5f5;
     --background: #101114;
@@ -117,6 +118,8 @@ footer a {
     color: var(--accent);
 }
 
+/* PC Parts Comparison Table */
+
 .parts-table {
     background-color: var(--secondary);
     padding: 25px;
@@ -148,4 +151,86 @@ td {
 
 tr:nth-child(even) {
     background-color: #1b1e24;
+}
+
+/* PC Build Planning Form */
+
+.build-form {
+    background-color: var(--secondary);
+    padding: 25px;
+    margin: 30px 0;
+    border-radius: 8px;
+}
+
+.build-form h2 {
+    color: var(--accent);
+}
+
+.build-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.build-form label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.build-form input,
+.build-form select,
+.build-form textarea {
+    width: 100%;
+    padding: 12px;
+    background-color: #1b1e24;
+    color: var(--text);
+    border: 1px solid #555;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+}
+
+.build-form button {
+    background-color: var(--primary);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.build-form button:hover {
+    background-color: var(--accent);
+    color: var(--background);
+}
+
+/* Video Styling */
+
+video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Images on Content Pages */
+
+.page-image {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.page-image img {
+    width: 100%;
+    max-width: 450px;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.page-image p {
+    color: var(--text);
+    font-size: 0.95em;
 }
