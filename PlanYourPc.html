@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Plan your first PC build based on your budget and needs">
+    <meta name="keywords" content="PC build planner, PC budget, gaming PC, beginner PC">
+    <meta name="author" content="Jordan Quill">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Plan Your Build | Build Your First PC</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <header>
+            <h1>Build Your First PC</h1>
+            <p>Beginner's Guide to Building a Computer</p>
+        </header>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="components.html">Components</a>
+            <a href="parts.html">Choosing Parts</a>
+            <a href="guide.html">Build Guide</a>
+            <a href="PlanYourPc.html">Plan Your Build</a>
+        </nav>
+
+        <main>
+
+            <h2>Plan Your First PC Build</h2>
+
+            <section class="page-image">
+                <img src="mypc.jpg"
+                     alt="Completed custom-built gaming computer">
+
+                <p>
+                    Planning your PC build can help you choose
+                    components that fit your budget and needs.
+                </p>
+            </section>
+
+            <section class="getting-started">
+                <h2>Getting Started</h2>
+
+                <p>
+                    Before building a PC, it is important to
+                    understand what you want to use it for and
+                    how much money you are willing to spend.
+                    Different types of computers require
+                    different components depending on their
+                    intended use.
+                </p>
+
+                <p>
+                    The form below will help you organize
+                    your preferences and think about what
+                    you need from your first PC.
+                    This is a planning exercise and does not
+                    save or submit your information.
+                </p>
+            </section>
+
+            <section class="build-form">
+
+                <h2>PC Build Planning Form</h2>
+
+                <form action="#" onsubmit="return false;">
+
+                    <label for="budget">What is your budget?</label>
+                    <input type="number" id="budget" name="budget"
+                           min="0" placeholder="Enter your budget in dollars">
+
+                    <label for="use">What will you use your PC for?</label>
+                    <select id="use" name="use">
+                        <option value="">Select an option</option>
+                        <option value="gaming">Gaming</option>
+                        <option value="school">School</option>
+                        <option value="work">Work</option>
+                        <option value="general">General Use</option>
+                    </select>
+
+                    <label for="experience">PC Building Experience</label>
+                    <select id="experience" name="experience">
+                        <option value="">Select an option</option>
+                        <option value="beginner">Beginner</option>
+                        <option value="some">Some Experience</option>
+                        <option value="experienced">Experienced</option>
+                    </select>
+
+                    <label for="resolution">Preferred Resolution</label>
+                    <select id="resolution" name="resolution">
+                        <option value="">Select an option</option>
+                        <option value="1080p">1080p</option>
+                        <option value="1440p">1440p</option>
+                        <option value="4k">4K</option>
+                        <option value="unsure">Not Sure</option>
+                    </select>
+
+                    <label for="comments">Additional Questions or Comments</label>
+                    <textarea id="comments" name="comments"
+                              rows="5"
+                              placeholder="Enter any additional information here"></textarea>
+
+                    <button type="submit">Submit</button>
+
+                </form>
+
+            </section>
+
+            <section class="getting-started">
+                <h2>What's Next?</h2>
+
+                <p>
+                    Once you have an idea of your budget and
+                    what you want to use your PC for, you can
+                    begin researching components that meet
+                    your needs.
+                </p>
+
+                <p>
+                    Visit the Choosing Parts page to learn
+                    more about different component options
+                    and compatibility. You can also use
+                    PCPartPicker to compare parts and
+                    organize a potential build.
+                </p>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>
+                &copy; 2026 Build Your First PC |
+                <a href="mailto:jcquill@asu.edu">Email</a> |
+                <a href="https://pcpartpicker.com/">PCPartPicker</a>
+            </p>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
